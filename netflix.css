@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   height: 650px;
   background-color: black;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .header{
@@ -17,21 +18,18 @@ body {
   background-color: black;
   opacity: 65%;
   z-index: -10;
-  height: 650px;
+  height: 700px;
   width: 100%;
   top: 0;
   left: 0;
   margin: auto;
 }
-
-#signIn{
-  margin-top: 25px;
-  float: right;
-  margin-right: 25px;
-}
-
-
-button {
+.try {
+  background-color: red;
+  opacity: 100%;
+  border-color: red;
+  font-size: 24px;
+  color: white;
   background-color: red;
   opacity: 100%;
   border-color: red;
@@ -39,6 +37,20 @@ button {
   font-size: 24px;
   color: white;
 }
+
+#signIn{
+  margin-top: 25px;
+  float: right;
+  margin-right: 25px;
+  background-color: red;
+  opacity: 100%;
+  border-color: red;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+}
+
+
 
 
 .home{
@@ -55,6 +67,10 @@ button {
   z-index: 1;
 }
 
+input{
+  height: 50px;
+  width: 550px;
+}
 
 .bodyTwo{
   background-color: black;
@@ -84,7 +100,22 @@ button {
     z-index: 2;
   }
 
-  .strangerThings{
+.faqList{
+  border-color: yellow;
+  border-width: 5px;
+}
+
+  faq-question{
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
     position: relative;
-    left: 0%;
+    width: 100%;
+    border: 0;
+    background-color: grey;
+  }
+
+  faq-list-item{
+    list-style-type: none;
+    margin: 0 0 8px 0;
   }
