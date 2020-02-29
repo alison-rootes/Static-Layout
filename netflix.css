@@ -24,7 +24,7 @@ body {
   left: 0;
   margin: auto;
 }
-.try {
+button {
   background-color: red;
   opacity: 100%;
   border-color: red;
